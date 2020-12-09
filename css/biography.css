@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color:#545454;
+    background-color: #c6ffcc96;
+    background-image: url(../images/xc.eps);
+  }
+
+
+  .image-uc:hover {
+
+  }

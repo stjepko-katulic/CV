@@ -1,0 +1,251 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color:#545454;
+  background-color: #c6ffcc96;
+  background-image: url(../images/xc.eps);
+}
+
+hr {
+ border-top: 12px dotted;
+ border-bottom: none;
+ color: green;
+ background-color: #d8f3dc;
+ opacity: 0.3;
+ margin: 150px auto 150px;
+ width: 6%;
+}
+
+.top-container {
+  position: relative;
+  background-color: #74c69d;
+  padding-top: 70px;
+}
+
+.middle-container {
+  position: relative;
+  padding-top: 100px;;
+}
+
+
+.myPhoto {
+  margin: 0 auto 20px;
+  display: block;
+
+}
+
+
+.aboutme-text {
+  color: #545454;
+  display: inline-block;
+  top: 550px;
+  width: 380px;
+
+  font-size: 23px;
+  text-align: center;
+}
+
+.heading {
+  width: 25%;
+  margin: auto;
+}
+
+.mainHeading {
+  font-family: 'Dancing Script', cursive;
+  font-size: 100px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.heading-description {
+  font-size: 20px;
+  margin-top: 0;
+  color: black;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #40916c;
+  margin-bottom: 50px;
+  font-size: 45px;
+}
+
+.mountain {
+  margin-top: 100px;
+}
+
+.cloud1 {
+  position: absolute;
+  right: 27%;
+  top: 10%;
+}
+
+.cloud2 {
+  position: absolute;
+  left: 30%;
+  bottom: 70%;
+}
+
+.cloud3 {
+  position: absolute;
+  right: 25%;
+  bottom: 40%;
+}
+
+.lista-fakultet {
+  display: inline-block;
+  text-align: left;
+  color: #545454;
+  width: 610px;
+  font-size: 23px;
+  vertical-align: middle;
+  margin-left: 70px;
+}
+
+.education-fakultet {
+  margin-bottom: 30px;
+}
+
+.lista-elementary {
+  display: inline-block;
+  color: #545454;
+  text-align: left;
+  position: relative;
+  top: 20px;
+}
+
+.board {
+ margin-left: 70px;
+}
+
+
+.skills-table1 {
+  display: inline-block;
+  margin-right: 100px;
+}
+
+.skills-table2 {
+  display: inline-block;
+}
+
+.checked-star {
+  color: orange;
+}
+
+.unchecked-star {
+  color: wheat
+}
+
+.middle-container-skills {
+  margin-bottom: 200px ;
+
+}
+
+.hrvatski {
+ margin-bottom: 30px;
+}
+
+.engleski {
+  margin-bottom: 30px;
+ }
+
+.hrvatski-zvjezdice {
+  display: inline-block;
+  margin-left: 60px;
+}
+
+
+.engleski-zvjezdice {
+  display: inline-block;
+  margin-left: 60px;
+}
+
+.image-uk {
+  width: 50px;
+  height: 50px;
+}
+
+
+.njemacki-zvjezdice {
+  display: inline-block;
+  margin-left: 60px;
+
+}
+
+.image-germany {
+  width: 50px;
+  height: 50px;
+}
+
+.middle-container4 {
+  display: inline-block;
+  margin-bottom: 200px;
+}
+
+.tablica-certifikata {
+  column-width: 100px;
+}
+
+.naslovi-certifikata1, .naslovi-certifikata2 {
+  padding-left: 50px;
+  padding-right: 50px;
+} 
+
+.dropdown {
+  display: inline-block;
+  position: absolute;
+  left: 80px;
+}
+
+#dropdownMenuLink {
+  background-color: transparent;
+  border-color: transparent;
+  background-image: url(../images/menu3.svg);
+  background-size: cover;
+  height: 60px;
+  width: 70px;
+  
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+#dropdownMenuLink:hover {
+  opacity: 0.5;
+}
+
+.dropdown-menu {
+  background-color: #d8f3dc;
+  font-size: 20px;
+  color: #545454;
+}
+
+.badge_OCA:hover, .badge_OCP:hover, .badge_db2:hover {
+  opacity: 0.5;
+}
+
+.bottom-container {
+  background-color: #40916c;
+  padding: 30px;
+}
+
+.image-linkedin:hover, .image-facebook:hover, .image-github:hover {
+  opacity: 0.5;
+}
+
+.image-linkedin, .image-facebook, .image-github {
+  margin: 0 20px 0 20px;
+}
+
+.btn-success {
+ display:block;
+ margin: 50px auto 20px;
+}
+
+.mycopyright {
+  color: white;
+  font-size: 14px;
+}
