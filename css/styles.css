@@ -236,7 +236,13 @@ h2 {
   opacity: 0.5;
 }
 
-.image-linkedin, .image-facebook, .image-github {
+/* .image-linkedin, .image-facebook, .image-github {
+  display: inline-block;
+  margin: 0 20px 0 20px;
+} */
+
+.btn-linkedin, .btn-facebook, .btn-github {
+  display: inline-block;
   margin: 0 20px 0 20px;
 }
 
