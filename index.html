@@ -33,10 +33,26 @@
 
 
 <body>
-  <div class="top-container">
+
+ <div class="menu">
+
+   <img class="X" src="images/cancel.svg" alt="">
+
+    <p> <a class="menu-titles" href="biography.html">Biography</a></p>
+    <p> <a class="menu-titles"  href="">Publications</a></p>
+    <p> <a class="menu-titles" href="">Projects</a></p>
+    <p> <a class="menu-titles" href="">Hobbies</a></p>
+
+ </div>
 
 
-    <div class="dropdown">
+<div class="top-container">
+
+
+<img src="images/menu3.svg" alt="" class="dropdown">
+
+
+    <!-- <div class="dropdown">
       <a class="btn btn-secondary dropdown-toggle" href="" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
         aria-expanded="false">
       </a>
@@ -46,7 +62,7 @@
         <li><a class="dropdown-item" href="#">Projects</a></li>
         <li><a class="dropdown-item" href="#">Papers</a></li>
       </ul>
-    </div>
+    </div> -->
 
 
     <img class="cloud1" src="images/cloud.png" alt="cloud-img" />
@@ -63,7 +79,7 @@
   <div class="middle-container">
     <div class="middle-aboutme">
       <h2>About me</h2>
-      <img class="myPhoto" src="images/MyPic1.png" alt="My photo" height="250" width="250" />
+      <img class="myPhoto" src="images/MyPic1.png" alt="My photo"/>
       <div class="aboutme-text">
         Hi, my name is Stjepko Katulić. I live and work in Zagreb, Croatia.
         <br />
@@ -309,24 +325,7 @@
   </div>
 
 
-
-  <!-- Optional JavaScript; choose one of the two! -->
-  <script>
-    $(document).ready(function () {
-      $('[data-toggle="popover"]').popover({ html: true });
-    });
-  </script>
-
-  <script>
-    $('body').on('click', function (e) {
-      $('[data-toggle=popover]').each(function () {
-        // hide any open popovers when the anywhere else in the body is clicked
-        if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
-          $(this).popover('hide');
-        }
-      });
-    });
-  </script>
+<script src="motor.js"></script>
 
 
   <!-- Option 1: Bootstrap Bundle with Popper -->

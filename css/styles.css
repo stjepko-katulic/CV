@@ -1,49 +1,89 @@
 body {
   margin: 0;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 25px;
-  color:#545454;
+  font-family: "Montserrat", sans-serif;
+  font-size: 140%;
+  color: #545454;
   background-color: #c6ffcc96;
-  background-image: url(../images/xc.eps);
+}
+
+.mainHeading {
+  font-family: "Dancing Script", cursive;
+  font-size: 80px;
+  margin-top: 0;
+  margin-bottom: 2%;
+}
+
+/* MENU */
+.menu {
+  background-color: rgb(127, 168, 43);
+  z-index: 2;
+  display: inline-block;
+  position: fixed;
+  width: 10%;
+  height: 100%;
+  left: -11%;
+  transition-duration: 2s;
+  padding-top: 2%;
+  padding-left: 1%;
+  text-align: left;
+}
+
+.menu-titles {
+  color: white;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.menu-unhide {
+  transform: translate(110%, 0%);
+  transition-duration: 2s;
+}
+
+.X {
+  position: relative;
+  left: 80%;
+  bottom: 2%;
+  height: 3%;
+  width: 15%;
+}
+
+.X:hover {
+  opacity: 0.3;
 }
 
 hr {
- border-top: 12px dotted;
- border-bottom: none;
- color: green;
- background-color: #d8f3dc;
- opacity: 0.3;
- margin: 150px auto 150px;
- width: 6%;
+  border-top: 12px dotted;
+  border-bottom: none;
+  color: green;
+  background-color: #d8f3dc;
+  opacity: 0.3;
+  margin: 10% auto 10%;
+  width: 6%;
 }
 
 .top-container {
   position: relative;
   background-color: #74c69d;
-  padding-top: 70px;
+  padding-top: 2%;
 }
 
 .middle-container {
   position: relative;
-  padding-top: 100px;;
+  padding-top: 5%;
 }
-
 
 .myPhoto {
-  margin: 0 auto 20px;
+  margin: 0 auto 2%;
   display: block;
-
+  height: 13%;
+  width: 13%;
 }
-
 
 .aboutme-text {
   color: #545454;
   display: inline-block;
-  top: 550px;
-  width: 380px;
-
-  font-size: 23px;
+  width: 20%;
   text-align: center;
 }
 
@@ -52,46 +92,45 @@ hr {
   margin: auto;
 }
 
-.mainHeading {
-  font-family: 'Dancing Script', cursive;
-  font-size: 100px;
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-
 .heading-description {
-  font-size: 20px;
+  font-size: 100%;
   margin-top: 0;
   color: black;
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #40916c;
-  margin-bottom: 50px;
-  font-size: 45px;
+  font-size: 150%;
+  margin-bottom: 5%;
 }
 
 .mountain {
-  margin-top: 100px;
+  margin-top: 5%;
 }
 
 .cloud1 {
   position: absolute;
   right: 27%;
   top: 10%;
+  height: 6%;
+  width: 9%;
 }
 
 .cloud2 {
   position: absolute;
   left: 30%;
   bottom: 70%;
+  height: 6%;
+  width: 9%;
 }
 
 .cloud3 {
   position: absolute;
   right: 25%;
   bottom: 40%;
+  height: 6%;
+  width: 9%;
 }
 
 .lista-fakultet {
@@ -99,7 +138,6 @@ h2 {
   text-align: left;
   color: #545454;
   width: 610px;
-  font-size: 23px;
   vertical-align: middle;
   margin-left: 70px;
 }
@@ -117,9 +155,8 @@ h2 {
 }
 
 .board {
- margin-left: 70px;
+  margin-left: 70px;
 }
-
 
 .skills-table1 {
   display: inline-block;
@@ -135,27 +172,25 @@ h2 {
 }
 
 .unchecked-star {
-  color: wheat
+  color: wheat;
 }
 
 .middle-container-skills {
-  margin-bottom: 200px ;
-
+  margin-bottom: 200px;
 }
 
 .hrvatski {
- margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .engleski {
   margin-bottom: 30px;
- }
+}
 
 .hrvatski-zvjezdice {
   display: inline-block;
   margin-left: 60px;
 }
-
 
 .engleski-zvjezdice {
   display: inline-block;
@@ -167,11 +202,9 @@ h2 {
   height: 50px;
 }
 
-
 .njemacki-zvjezdice {
   display: inline-block;
   margin-left: 60px;
-
 }
 
 .image-germany {
@@ -188,42 +221,30 @@ h2 {
   column-width: 100px;
 }
 
-.naslovi-certifikata1, .naslovi-certifikata2 {
+.naslovi-certifikata1,
+.naslovi-certifikata2 {
   padding-left: 50px;
   padding-right: 50px;
-} 
+}
 
+/* Dropdown menu*/
 .dropdown {
   display: inline-block;
-  position: absolute;
-  left: 80px;
+  position: fixed;
+  left: 20px;
+  top: 10px;
+  z-index: 1;
+  height: 5%;
+  width: 3%;
 }
 
-#dropdownMenuLink {
-  background-color: transparent;
-  border-color: transparent;
-  background-image: url(../images/menu3.svg);
-  background-size: cover;
-  height: 60px;
-  width: 70px;
-  
-}
-
-.dropdown-toggle::after {
-  content: none;
-}
-
-#dropdownMenuLink:hover {
+.dropdown:hover {
   opacity: 0.5;
 }
 
-.dropdown-menu {
-  background-color: #d8f3dc;
-  font-size: 20px;
-  color: #545454;
-}
-
-.badge_OCA:hover, .badge_OCP:hover, .badge_db2:hover {
+.badge_OCA:hover,
+.badge_OCP:hover,
+.badge_db2:hover {
   opacity: 0.5;
 }
 
@@ -232,19 +253,22 @@ h2 {
   padding: 30px;
 }
 
-.image-linkedin:hover, .image-facebook:hover, .image-github:hover {
+.image-linkedin:hover,
+.image-facebook:hover,
+.image-github:hover {
   opacity: 0.5;
 }
 
-
-.btn-linkedin, .btn-facebook, .btn-github {
+.btn-linkedin,
+.btn-facebook,
+.btn-github {
   display: inline-block;
   margin: 0 20px 0 20px;
 }
 
 .btn-success {
- display:block;
- margin: 50px auto 20px;
+  display: block;
+  margin: 50px auto 20px;
 }
 
 .mycopyright {
