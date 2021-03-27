@@ -7,11 +7,26 @@ body {
   background-color: #c6ffcc96;
 }
 
+.heading {
+  position: relative;
+  width: 25%;
+  margin: auto;
+  z-index: 5;
+}
+
+
 .mainHeading {
   font-family: "Dancing Script", cursive;
-  font-size: 80px;
+  font-size: 400%;
   margin-top: 0;
   margin-bottom: 2%;
+}
+
+.heading-description {
+  font-size: 100%;
+  margin-top: 0;
+  color: black;
+  z-index: 2;
 }
 
 /* MENU */
@@ -87,16 +102,7 @@ hr {
   text-align: center;
 }
 
-.heading {
-  width: 25%;
-  margin: auto;
-}
 
-.heading-description {
-  font-size: 100%;
-  margin-top: 0;
-  color: black;
-}
 
 h2 {
   font-family: "Montserrat", sans-serif;
@@ -107,6 +113,8 @@ h2 {
 
 .mountain {
   margin-top: 5%;
+  height: 50%;
+  width: 50%;
 }
 
 .cloud1 {
@@ -119,10 +127,11 @@ h2 {
 
 .cloud2 {
   position: absolute;
-  left: 30%;
+  right: 70%;
   bottom: 70%;
   height: 6%;
   width: 9%;
+  z-index: 0;
 }
 
 .cloud3 {
@@ -137,13 +146,9 @@ h2 {
   display: inline-block;
   text-align: left;
   color: #545454;
-  width: 610px;
+  width: 35%;
   vertical-align: middle;
-  margin-left: 70px;
-}
-
-.education-fakultet {
-  margin-bottom: 30px;
+  margin-left: 4%;
 }
 
 .lista-elementary {
@@ -151,16 +156,15 @@ h2 {
   color: #545454;
   text-align: left;
   position: relative;
-  top: 20px;
 }
 
 .board {
-  margin-left: 70px;
+  margin-left: 4%;
 }
 
 .skills-table1 {
   display: inline-block;
-  margin-right: 100px;
+  margin-right: 5%;
 }
 
 .skills-table2 {
@@ -175,56 +179,45 @@ h2 {
   color: wheat;
 }
 
-.middle-container-skills {
-  margin-bottom: 200px;
-}
-
 .hrvatski {
-  margin-bottom: 30px;
+  margin-bottom: 1%;
 }
 
 .engleski {
-  margin-bottom: 30px;
+  margin-bottom: 1%;
 }
 
 .hrvatski-zvjezdice {
   display: inline-block;
-  margin-left: 60px;
+  margin-left: 2%;
 }
 
 .engleski-zvjezdice {
   display: inline-block;
-  margin-left: 60px;
-}
-
-.image-uk {
-  width: 50px;
-  height: 50px;
+  margin-left: 2%;
 }
 
 .njemacki-zvjezdice {
   display: inline-block;
-  margin-left: 60px;
+  margin-left: 2%;
 }
 
-.image-germany {
-  width: 50px;
-  height: 50px;
+.zastava {
+  width: 3%;
+  height: 3%;
 }
 
 .middle-container4 {
   display: inline-block;
-  margin-bottom: 200px;
 }
 
-.tablica-certifikata {
-  column-width: 100px;
+.tablica-certifikati td {
+  width: 350px;
 }
 
-.naslovi-certifikata1,
-.naslovi-certifikata2 {
-  padding-left: 50px;
-  padding-right: 50px;
+.badge1 {
+  width: 40%;
+  height: 47%;
 }
 
 /* Dropdown menu*/
@@ -244,13 +237,15 @@ h2 {
 
 .badge_OCA:hover,
 .badge_OCP:hover,
-.badge_db2:hover {
+.badge_db2:hover,
+.badge_db2dba:hover {
   opacity: 0.5;
 }
 
 .bottom-container {
   background-color: #40916c;
   padding: 30px;
+  margin-top: 80px;
 }
 
 .image-linkedin:hover,
@@ -274,4 +269,28 @@ h2 {
 .mycopyright {
   color: white;
   font-size: 14px;
+}
+
+.checkbox-animation {
+  position: absolute;
+  right:2%;
+  margin: auto;
+  padding: 0;
+}
+
+.custom-control-input {
+  display: inline-block;
+  height:16px;
+  width: 16px;
+  margin: 0;
+}
+
+.animation {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.naslov-certifikata {
+  font-size: 80%;
+  
 }
