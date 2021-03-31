@@ -98,5 +98,19 @@
         margin-bottom: 0;
     }
 
+    .menu-titles {
+        font-size: 2.1vw;
+        margin-left: 1vw;
+    }
+
+    .menu-titles-container {
+        top: 13vw;
+    }
+
+    .X {
+        left: 70%;
+        height: 4vw;
+    }
+
 }
 
