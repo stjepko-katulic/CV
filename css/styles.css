@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   text-align: center;
@@ -33,23 +37,33 @@ body {
 
 /* MENU */
 .menu {
+  position: relative;
   background-color: rgb(127, 168, 43);
   z-index: 2;
   display: inline-block;
   position: fixed;
-  width: 10%;
+  width: 18%;
   height: 100%;
-  left: -11%;
+  left: -20%;
   transition-duration: 2s;
   padding-top: 2%;
   padding-left: 1%;
   text-align: left;
 }
 
+
+.menu-titles-container {
+  position: absolute;
+  left: 2vw;
+  top: 8vw;
+}
+
 .menu-titles {
+  display: block;
   color: white;
   text-decoration: none;
-  font-size: 100%;
+  font-size: 1.5vw;
+  margin-bottom: 1vw;
 }
 
 .menu-unhide {
@@ -58,11 +72,9 @@ body {
 }
 
 .X {
-  position: relative;
-  left: 80%;
-  bottom: 2%;
-  height: 3%;
-  width: 15%;
+  position: absolute;
+  left: 75%;
+  height: 3vw;
 }
 
 .X:hover {
@@ -190,8 +202,6 @@ h2 {
 
 
 
-
-
 .skills-table1 {
   display: inline-block;
   margin-right: 5%;
@@ -199,6 +209,11 @@ h2 {
 
 .skills-table2 {
   display: inline-block;
+}
+
+
+.stars {
+  font-size: 1.2vw;
 }
 
 .checked-star {
