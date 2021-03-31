@@ -2,14 +2,14 @@ body {
   margin: 0;
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  font-size: 140%;
+  font-size: 1vw;
   color: #545454;
   background-color: #c6ffcc96;
 }
 
 .heading {
   position: relative;
-  width: 25%;
+  width: 40%;
   margin: auto;
   z-index: 5;
 }
@@ -17,15 +17,17 @@ body {
 
 .mainHeading {
   font-family: "Dancing Script", cursive;
-  font-size: 400%;
+  font-size: 6vw;
   margin-top: 0;
+  font-weight: 600;
   margin-bottom: 2%;
 }
 
 .heading-description {
-  font-size: 100%;
+  font-size: 2vw;
   margin-top: 0;
   color: black;
+  font-weight: 300;
   z-index: 2;
 }
 
@@ -91,14 +93,15 @@ hr {
 .myPhoto {
   margin: 0 auto 2%;
   display: block;
-  height: 13%;
-  width: 13%;
+  height: 16vw;
+  width: 16vw;
 }
 
 .aboutme-text {
   color: #545454;
   display: inline-block;
-  width: 20%;
+  font-size: 1.3vw;
+  width: 70vw;
   text-align: center;
 }
 
@@ -142,25 +145,52 @@ h2 {
   width: 9%;
 }
 
-.lista-fakultet {
-  display: inline-block;
+
+.education-fakultet {
+  overflow: hidden;
+  margin-bottom: 3%;
+}
+
+.diploma-container {
+  float: left;
+  margin-bottom: 0%;
+  margin-left: 16%;
+  margin-top: 3%;
+  margin-right: 5%;
+}
+
+.lista-fakul-container {
   text-align: left;
   color: #545454;
   width: 35%;
+  font-size: 1.3vw;
+  float: left;
+  margin-top: 3%;
   vertical-align: middle;
-  margin-left: 4%;
 }
 
-.lista-elementary {
-  display: inline-block;
+
+.education-elementary-container {
+  overflow: hidden;
+}
+
+.lista-elementary-container {
   color: #545454;
   text-align: left;
-  position: relative;
+  font-size: 1.3vw;
+  float: left;
+  margin-left: 22%;
+  margin-right:4%;
+  margin-top:3.5%;
 }
 
-.board {
-  margin-left: 4%;
+.board-container {
+  float: left;
 }
+
+
+
+
 
 .skills-table1 {
   display: inline-block;
@@ -216,8 +246,8 @@ h2 {
 }
 
 .badge1 {
-  width: 40%;
-  height: 47%;
+  width: 50%;
+  height: 50%;
 }
 
 /* Dropdown menu*/
@@ -227,8 +257,8 @@ h2 {
   left: 20px;
   top: 10px;
   z-index: 1;
-  height: 5%;
-  width: 3%;
+  height: 4vw;
+  width: 4vw;
 }
 
 .dropdown:hover {
@@ -271,26 +301,32 @@ h2 {
   font-size: 14px;
 }
 
-.checkbox-animation {
-  position: absolute;
-  right:2%;
-  margin: auto;
-  padding: 0;
-}
-
-.custom-control-input {
-  display: inline-block;
-  height:16px;
-  width: 16px;
-  margin: 0;
-}
-
-.animation {
-  display: inline-block;
-  font-size: 16px;
-}
-
 .naslov-certifikata {
   font-size: 80%;
   
 }
+
+
+/* CHECKBOX ANIMACIJA*/
+.checkbox-animation-container {
+  position: absolute;
+  top: 10px;
+  right:3%;
+  overflow: hidden;
+}
+
+.animation-label {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 800;
+  margin-right: 5px;
+}
+
+#exampleCheck1 {
+  display: inline-block;
+}
+
+
+
+
+

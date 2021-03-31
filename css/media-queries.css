@@ -1,0 +1,102 @@
+@media only screen and (max-width: 600px) {
+    .aboutme-text {
+        font-size: 3vw;
+      }
+
+      .myPhoto {
+        height: 30vw;
+        width: 30vw;
+      }
+
+      h2 {
+          font-size: 4vw;
+      }
+
+      hr {
+        width: 30vw;
+        scale: 0.7;
+      }
+
+    .dropdown {
+        height: 7vw;
+        width: 7vw;
+    }
+
+    .diploma {
+        height: 20vw;
+        width: 20vw;
+    }
+
+    
+    .board
+     {
+        height: 20vw;
+        width: 20vw;
+    }
+
+    .diploma-container {
+        margin-top: 4%;
+        margin-left: 10%;
+    }
+
+    .lista-fakultet li {
+        width: 50vw;
+        font-size: 2.5vw;
+    }
+
+    .lista-elementary li {
+        width: 40vw;
+        font-size: 2.5vw;
+    }
+
+
+
+    .lista-elementary-container {
+        margin-top:5%;
+        margin-left: 6%;
+    }
+
+    .mainHeading {
+        font-size: 8vw;
+        width: 40vw;
+    }
+
+    .skills-table1 .stars, .skills-table2 .stars {
+        font-size: 2.5vw;
+    }
+
+    .skills-table1 .fa-star, .skills-table2 .fa-star {
+        font-size: 2.5vw;
+    }
+
+    .middle-container-languages .zastava {
+        width: 8vw;
+        height: 3%;
+    }
+
+    .middle-container-languages .fa-star {
+        font-size: 2.5vw;
+    }
+
+    .badge1 {
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .naslov-certifikata {
+        font-size: 2vw;
+    }
+
+    .btn-success {
+        height: 8vw;
+        width: 28vw;
+        font-size: 3vw;
+        padding-top: 1.3vw;
+    }
+
+    .mycopyright {
+        margin-bottom: 0;
+    }
+
+}
+

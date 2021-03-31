@@ -21,6 +21,7 @@
 
   <!-- My CSS-->
   <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/media-queries.css">
   <title>Hello, world!</title>
 
 
@@ -51,8 +52,8 @@
 
   <div class="top-container">
     
-    <div class="checkbox-animation">
-      <label for="animation" class="animation">animation</label>
+    <div class="checkbox-animation-container">
+      <label for="animation" class="animation-label">animation</label>
       <input type="checkbox" class="custom-control-input" id="exampleCheck1">
    </div>
 
@@ -62,7 +63,6 @@
     
     <div class="heading">
       <h2 class="mainHeading">I'm Stjepko</h2>
-      <p class="heading-description">a programmer @ SV Group</p>
     </div>
 
     <img class="cloud2" src="images/cloud.png" alt="cloud-img" />
@@ -75,7 +75,7 @@
       <h2>About me</h2>
       <img class="myPhoto" src="images/MyPic1.png" alt="My photo" />
       <div class="aboutme-text">
-        Hi, my name is Stjepko Katulić. I live and work in Zagreb, Croatia.
+        Hi, my name is Stjepko Katulić. <br> I live and work in Zagreb, Croatia.
         <br />
         I'm a software developer.
       </div>
@@ -85,28 +85,43 @@
     <div class="middle-education">
       <h2>Education</h2>
 
+
+
       <div class="education-fakultet">
-        <img class="diploma" src="images/diploma.png" alt="diploma" height="200" width="200" />
-        <ul class="lista-fakultet">
-          <li>
-            PhD., Faculty of Mechanical Engineering and Naval Architecture,
-            University of Zagreb, 2011 - 2016
-          </li>
-          <li>
-            M.Sc.Mech.Eng., Faculty of Mechanical Engineering and Naval
-            Architecture, University of Zagreb, 2002 - 2008
-          </li>
-        </ul>
+        <div class="diploma-container">
+          <img class="diploma" src="images/diploma.png" alt="diploma" height="200" width="200" />
+        </div>
+        
+        <div class="lista-fakul-container">
+          <ul class="lista-fakultet">
+            <li>
+              PhD., Faculty of Mechanical Engineering and Naval Architecture,
+              University of Zagreb, 2011 - 2016
+            </li>
+            <li>
+              M.Sc.Mech.Eng., Faculty of Mechanical Engineering and Naval
+              Architecture, University of Zagreb, 2002 - 2008
+            </li>
+          </ul>
+        </div>
       </div>
 
-      <div class="education-elementary">
-        <ul class="lista-elementary">
-          <li>High School, Sisak, 1998 - 2002</li>
-          <li>Elementary School, Sisak, 1990 - 1998</li>
-        </ul>
 
-        <img class="board" src="images/board.png" alt="diploma" height="200" width="200" />
+
+      <div class="education-elementary-container">
+
+        <div class="lista-elementary-container">
+          <ul class="lista-elementary">
+            <li>High School, Sisak, 1998 - 2002</li>
+            <li>Elementary School, Sisak, 1990 - 1998</li>
+          </ul>
+        </div>
+
+        <div class="board-container">
+          <img class="board" src="images/board.png" alt="diploma" height="200" width="200" />
+        </div>
       </div>
+
     </div>
 
     <hr>

@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "file": "C:\\Users\\Yossarian\\Downloads\\CSCode_Exercise\\Moja_web_stranica\\index.html"
+            "file": "C:\\Users\\Yossarian\\Downloads\\git-repo-myapps\\Moja_web_stranica\\index.html"
         }
     ]
 }
