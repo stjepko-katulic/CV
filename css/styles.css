@@ -38,7 +38,7 @@ body {
 /* MENU */
 .menu {
   position: relative;
-  background-color: rgb(127, 168, 43);
+  background-color: rgb(24, 179, 93);
   z-index: 2;
   display: inline-block;
   position: fixed;
@@ -49,6 +49,7 @@ body {
   padding-top: 2%;
   padding-left: 1%;
   text-align: left;
+  box-shadow: 1px 0;
 }
 
 
@@ -82,13 +83,13 @@ body {
 }
 
 hr {
-  border-top: 12px dotted;
+  border-top: 2px solid;
   border-bottom: none;
-  color: green;
+  color: rgb(1, 95, 1);
   background-color: #d8f3dc;
   opacity: 0.3;
   margin: 10% auto 10%;
-  width: 6%;
+  width: 20%;
 }
 
 .top-container {
@@ -121,8 +122,9 @@ hr {
 
 h2 {
   font-family: "Montserrat", sans-serif;
-  color: #40916c;
-  font-size: 150%;
+  font-weight: 700;
+  color: #2c634a;
+  font-size: 170%;
   margin-bottom: 5%;
 }
 
@@ -213,7 +215,7 @@ h2 {
 
 
 .stars {
-  font-size: 1.2vw;
+  font-size: 1.3vw;
 }
 
 .checked-star {
@@ -248,8 +250,8 @@ h2 {
 }
 
 .zastava {
-  width: 3%;
-  height: 3%;
+  width: 5%;
+  height: 5%;
 }
 
 .middle-container4 {
@@ -332,7 +334,7 @@ h2 {
 
 .animation-label {
   display: inline-block;
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 800;
   margin-right: 5px;
 }
@@ -340,8 +342,3 @@ h2 {
 #exampleCheck1 {
   display: inline-block;
 }
-
-
-
-
-

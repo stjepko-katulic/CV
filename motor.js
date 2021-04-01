@@ -243,6 +243,24 @@ function cloud3FloatLeft() {
 
 }
 
-function proba() {
-    console.log(2+5);
-};
+
+// hideanje elementa "menu"
+var wasClassEnabled = false;
+$(window).on('click', function(nesto) {
+
+    // ako sam kliknuo na "menu" element onda nemoj hide
+    if (!$(nesto.target).hasClass('menu')) {
+
+    var hasClass = $('.menu').hasClass('menu-unhide');
+
+    if (wasClassEnabled) {
+        $('.menu').removeClass('menu-unhide');
+        hasClass = false;
+        wasClassEnabled = false;
+    }
+
+    if (hasClass) {
+        wasClassEnabled = true;
+    }
+}
+});
