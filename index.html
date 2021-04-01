@@ -1,11 +1,15 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Hi, my name is Stjepko Katulić. I live and work in Zagreb, Croatia. I'm a software developer.">
+
   <title>Stjepko Katulic home</title>
+
   <link rel="icon" href="favicon.ico" />
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet" />
@@ -22,8 +26,6 @@
   <!-- My CSS-->
   <link rel="stylesheet" href="css/styles.css" />
   <link rel="stylesheet" href="css/media-queries.css">
-  <title>Hello, world!</title>
-
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -38,8 +40,9 @@
 
 <body>
 
-  <div class="menu">
+  <!-- MENU  -->
 
+  <div class="menu">
     <img class="X" src="images/cancel.svg" alt="">
 
     <div class="menu-titles-container">
@@ -48,21 +51,22 @@
       <a class="menu-titles" href="">Projects</a>
       <a class="menu-titles" href="">Hobbies</a>
     </div>
-
   </div>
 
 
+  <!-- TOP CONTAINER -->
+
   <div class="top-container">
-    
+
     <div class="checkbox-animation-container">
-      <label for="animation" class="animation-label">animation</label>
+      <label class="animation-label">animation</label>
       <input type="checkbox" class="custom-control-input" id="exampleCheck1">
-   </div>
+    </div>
 
     <img src="images/menu3.svg" alt="" class="dropdown">
 
     <img class="cloud1" src="images/cloud.png" alt="cloud-img" />
-    
+
     <div class="heading">
       <h2 class="mainHeading">I'm Stjepko</h2>
       <p class="heading-description">a programmer <br> @SV Group</p>
@@ -85,6 +89,10 @@
 
     </div>
     <hr>
+
+
+    <!-- MIDDLE CONTAINER - EDUCATION -->
+
     <div class="middle-education">
       <h2>Education</h2>
 
@@ -94,7 +102,7 @@
         <div class="diploma-container">
           <img class="diploma" src="images/diploma.png" alt="diploma" height="200" width="200" />
         </div>
-        
+
         <div class="lista-fakul-container">
           <ul class="lista-fakultet">
             <li>
@@ -129,9 +137,10 @@
 
     <hr>
 
+    <!-- SKILLS -->
+
     <div class="middle-container-skills">
       <h2>Skills</h2>
-      <p>
       <table class="skills-table1">
         <tr class="java-stars">
           <td class="stars">Java</td>
@@ -146,11 +155,21 @@
         <tr class="sql-stars">
           <td class="stars">SQL</td>
           <td>
-            <span class="fa fa-star checked-star klasa1"></span>
-            <span class="fa fa-star checked-star klasa2"></span>
-            <span class="fa fa-star checked-star klasa3"></span>
-            <span class="fa fa-star checked-star klasa4"></span>
-            <span class="fa fa-star unchecked-star klasa5"></span>
+            <span class="fa fa-star checked-star"></span>
+            <span class="fa fa-star checked-star"></span>
+            <span class="fa fa-star checked-star"></span>
+            <span class="fa fa-star checked-star"></span>
+            <span class="fa fa-star unchecked-star"></span>
+          </td>
+        </tr>
+        <tr>
+          <td class="stars">Spring</td>
+          <td>
+            <span class="fa fa-star checked-star"></span>
+            <span class="fa fa-star checked-star"></span>
+            <span class="fa fa-star checked-star"></span>
+            <span class="fa fa-star unchecked-star"></span>
+            <span class="fa fa-star unchecked-star"></span>
           </td>
         </tr>
         <tr class="git-stars">
@@ -162,22 +181,13 @@
             <span class="fa fa-star unchecked-star"></span>
             <span class="fa fa-star unchecked-star"></span>
           </td>
-        <tr>
+        </tr>
         <tr>
           <td class="stars">MyBatis</td>
           <td>
             <span class="fa fa-star checked-star"></span>
             <span class="fa fa-star checked-star"></span>
             <span class="fa fa-star checked-star"></span>
-            <span class="fa fa-star unchecked-star"></span>
-            <span class="fa fa-star unchecked-star"></span>
-          </td>
-        <tr>
-          <td class="stars">Spring</td>
-          <td>
-            <span class="fa fa-star checked-star"></span>
-            <span class="fa fa-star checked-star"></span>
-            <span class="fa fa-star unchecked-star"></span>
             <span class="fa fa-star unchecked-star"></span>
             <span class="fa fa-star unchecked-star"></span>
           </td>
@@ -230,16 +240,18 @@
           <td>
             <span class="fa fa-star checked-star"></span>
             <span class="fa fa-star checked-star"></span>
-            <span class="fa fa-star unchecked-star"></span>
+            <span class="fa fa-star checked-star"></span>
             <span class="fa fa-star unchecked-star"></span>
             <span class="fa fa-star unchecked-star"></span>
           </td>
         </tr>
       </table>
-      </p>
     </div>
 
     <hr>
+
+
+<!-- LANGUAGES -->
 
     <div class="middle-container-languages">
       <h2>Languages</h2>
@@ -277,6 +289,9 @@
 
     <hr>
 
+
+    <!-- CERTIFICATES -->
+
     <div class="middle-container4">
       <h2>Certificates</h2>
 
@@ -305,15 +320,14 @@
                  <a href='https://www.youracclaim.com/badges/099f7686-201d-4298-86e8-4c3c50d75456/linked_in' target='_blank'>Acclaim</a>"
               data-bs-placement="top"></td>
 
-              <td><img class="badge_db2dba badge1" src="images/badge_db2dba.png" alt="" data-toggle="popover"
-                title="DB2 11.1 DBA for LUW"
-                data-bs-content="This intermediate level certification is intended for those who understand the DB2 11.1 technology and 
+          <td><img class="badge_db2dba badge1" src="images/badge_db2dba.png" alt="" data-toggle="popover"
+              title="DB2 11.1 DBA for LUW"
+              data-bs-content="This intermediate level certification is intended for those who understand the DB2 11.1 technology and 
                 have the skills required in the day-to-day administration of DB2 instances and databases. To attain the certification, 
                 candidates must pass two tests. To gain additional knowledge and skills, and prepare for the tests based on the job roles and
                  test objectives, click on the link to the test below and refer to the Test Preparation tab, <br> <br>
-                <a href='https://www.youracclaim.com/badges/29c7c737-87c3-44ab-9dca-ac0ca5d3bf55?source=linked_in_profile' target='_blank'>Acclaim</a>"
-                data-bs-placement="top"></td>
-
+                <a href='https://www.youracclaim.com/earner/earned/badge/29c7c737-87c3-44ab-9dca-ac0ca5d3bf55' target='_blank'>Acclaim</a>"
+              data-bs-placement="top"></td>
         </tr>
         <tr>
           <td class="naslov-certifikata">Oracle Certified Associate <br> Java SE 8 Programmer</td>
@@ -327,17 +341,20 @@
   <div>
   </div>
 
+
+  <!-- CONTACT -->
+
   <div class="bottom-container">
     <form class="btn-linkedin" action="https://www.linkedin.com/in/stjepko-katulic" target="_blank">
-      <input type="image" src="images/linkedin.svg" height="35" width="35">
+      <input type="image" src="images/linkedin.svg" height="35" width="35" alt="LinkedIn">
     </form>
 
     <form class="btn-github" action="https://github.com/stjepko-katulic" target="_blank">
-      <input type="image" src="images/github.svg" height="35" width="35">
+      <input type="image" src="images/github.svg" height="35" width="35" alt="GitHub">
     </form>
 
     <form class="btn-facebook" action="https://www.facebook.com/yossarianhr/" target="_blank">
-      <input type="image" src="images/facebook.svg" height="35" width="35">
+      <input type="image" src="images/facebook.svg" height="35" width="35" alt="Facebook">
     </form>
 
 
