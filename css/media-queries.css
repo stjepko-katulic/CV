@@ -106,8 +106,8 @@
     }
 
     .menu-titles {
-        font-size: 2.1vw;
-        margin-left: 1vw;
+        font-size: 3.2vw;
+        margin-left: 3vw;
     }
 
     .menu-titles-container {
@@ -119,9 +119,21 @@
         height: 4vw;
     }
 
+    .animation-label {
+        font-size: 10px;
+        font-weight: 400;
+    }
 
+    .menu {
+        width: 30%;
+        height: 100%;
+        left: -34%;
+        padding-top: 2%;
+        padding-left: 1%;
+
+      }
 
 }
 
-}
+
 
