@@ -163,6 +163,7 @@ h2 {
 .education-fakultet {
   overflow: hidden;
   margin-bottom: 3%;
+  margin-left: 10%;
 }
 
 .diploma-container {
@@ -176,16 +177,17 @@ h2 {
 .lista-fakul-container {
   text-align: left;
   color: #545454;
-  width: 35%;
+  width: 45%;
   font-size: 1.3vw;
   float: left;
-  margin-top: 3%;
+  margin-top: 4%;
   vertical-align: middle;
 }
 
 
 .education-elementary-container {
   overflow: hidden;
+  margin-left: 12%;
 }
 
 .lista-elementary-container {
@@ -206,7 +208,7 @@ h2 {
 
 .skills-table1 {
   display: inline-block;
-  margin-right: 5%;
+  margin-right: 10%;
 }
 
 .skills-table2 {
@@ -263,8 +265,8 @@ h2 {
 }
 
 .badge1 {
-  width: 50%;
-  height: 50%;
+  width: 200px;
+  height: 200px;
 }
 
 /* Dropdown menu*/
